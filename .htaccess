@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.lokisalle.eu [NC]
+RewriteRule (.*) http://www.lokisalle.eu/$1 [QSA,R=301,L]
+
+
+SetEnv FEEDBACK_HOSTNAME smtp.free.fr
+SetEnv FEEDBACK_EMAIL sebastien77.faurie77@free.fr
+SetEnv FEEDBACK_PASSWORD aude1974
+SetEnv FEEDBACK_ENCRYPTION TLS
+SetEnv RECAPTCHA_SECRET_KEY 6LekYRYUAAAAAHtfZCzWpHLv2ARjXVFQQmilkCvy

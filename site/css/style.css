@@ -1,0 +1,60 @@
+.rating {
+   direction: rtl;
+}
+.rating a {
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: orange;
+   cursor: pointer;
+}
+.input-group > .form-control {
+    display: table-cell;
+    margin-left: -3px;
+}
+.contact{
+    height: 30px;
+    width: 405px !important;
+}
+.modal-content {
+    background-color: #d9edf7;
+	color:#ffffff;
+}
+.modal-body{
+	background-color:#ffffff;
+	color:#333;
+}
+.modal-dialog {
+    margin: 102px auto;
+}
+.modal-header .close {
+    margin-top: 10px;
+}
+.modal-footer{
+	color:#ffffff;
+}
+.form-group >.form-control{
+	width: 100% !important;
+}
+.g-recaptcha{
+	padding-bottom:12px;
+}
+.btn-primary {
+    background-color: #d9edf7;
+    border-color: #2e6da4;
+    color: #000000;
+}
+.btn-primary :hover{
+    background-color: #d9edf7;
+    border-color: #2e6da4;
+}
+
+.well:nth-of-type(1) li{ /* first well;*/
+list-style-type:none;
+}

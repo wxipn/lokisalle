@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin
+Disallow: /site/library/
+Disallow: /site/js/
+Disallow: /site/assets/

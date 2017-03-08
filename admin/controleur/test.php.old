@@ -1,0 +1,24 @@
+<?php
+include_once('../modele/set_salles.php');
+
+/* 		$titre = $_POST['titre'];
+		$description = $_POST['description'];
+		$pays = $_POST['pays'];
+		$ville = $_POST['ville'];
+		$adresse = $_POST['adresse'];
+		$cp = $_POST['cp'];
+		$capacite = $_POST['capacite'];
+		$categorie = $_POST['categorie']; */
+//echo $_POST['titre'].' @@@';
+if($_POST){
+	var_dump($_POST);
+	$vari = unserialize($_POST['id_salle']);
+	var_dump($vari);
+	if(isset($_POST['id_salle'])){
+		//$id_salle = $_POST['id_salle'];
+		//update_salle($id_salle);
+	}
+}
+
+
+?>
